@@ -1,0 +1,109 @@
+.section {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+
+    gap: 20vh;
+    padding: 150px;
+}
+
+.section h2, h1 {
+    width: 30vw;
+}
+
+.section .presentation, .about, .technologies {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.section .presentation {
+    padding-bottom: 20vh;
+}
+
+.section .presentation h1 {
+    font-size: 4.5vh;
+}
+
+.section .presentation img {
+    width: 500px;
+}
+
+.section .about {
+    margin-inline:auto 0;
+}
+
+.technologies .list {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+.technologies .list li {
+    list-style: none;
+}
+
+@media (max-width: 1040px) {
+    .section {
+        gap: 10vh;
+        padding: 80px 0 80px 0;
+    }
+
+    .section .presentation, .about, .technologies {
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section .presentation {
+        padding-bottom: 1vh;
+        gap: 2vh;
+    }
+
+    .section .presentation h1 {
+        font-size: 5vw;
+        width: 80vw;
+    }
+
+    .section .presentation img {
+        height: 450px;
+        width: 450px;
+    }
+
+    .section .about {
+        margin-inline: auto;
+    }
+
+    .section .about h1 {
+        font-size: 4vw;
+    }
+
+    .section .about h2 {
+        font-size: 3vw;
+        width: 80vw;
+    }
+
+    .section .technologies h2 {
+        font-size: 4vw;
+    }
+
+    .section .technologies ul {
+        margin-right: 10vw;
+    }
+
+    .section .technologies ul h3 {
+        font-size: 3.5vw;
+    }
+
+    .section .technologies ul li {
+        font-size: 3vw;
+        width: 20vw;
+    }
+}
+
+@media (max-width: 744px) {
+    .section .presentation img {
+        height: 250px;
+        width: 250px;
+    }
+}

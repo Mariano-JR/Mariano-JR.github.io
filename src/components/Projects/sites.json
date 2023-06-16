@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "nome": "Alura Space",
+        "url": "https://alura-space-lyart-kappa.vercel.app",
+        "descricao": "Website project developed using ReactJS in Alura's course.",
+        "image": "/assets/imagens/alura-space.png"
+
+    },
+    {
+        "id": 2,
+        "nome": "Organo",
+        "url": "https://organo-two-taupe.vercel.app",
+        "descricao": "Organization chart creation project developed during Alura's React course.",
+        "image": "/assets/imagens/organo.png"
+    },
+    {
+        "id": 3,
+        "nome": "CEP Search",
+        "url": "https://consulta-cep-theta.vercel.app",
+        "descricao": "CEP search system using the ViaCEP API, created in ReactJS.",
+        "image": "/assets/imagens/consulta-cep.png"
+    },
+    {
+        "id": 4,
+        "nome": "Digital Clock",
+        "url": "https://digital-clock-ten-xi.vercel.app",
+        "descricao": "Digital clock created with Vanilla for programming logic training.",
+        "image": "/assets/imagens/digital-clock.png"
+    }
+]
